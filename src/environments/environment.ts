@@ -3,7 +3,14 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  url: "wss://{{domain}}:{{port}}",
+  sip: {
+    uri: "sip:{{username}}@{{domain}}:{{port}}",
+    display_name: '{{username}}',
+    authorization_user: '{{username}}',
+    password:"{{password}}"
+  }
 };
 
 /*

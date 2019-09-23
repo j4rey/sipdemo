@@ -33,6 +33,9 @@
             "scripts": []
           },
           "configurations": {
+            "es5": {
+              "tsConfig": "./tsconfig.es5.json"
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -70,6 +73,9 @@
             "browserTarget": "sipdemo:build"
           },
           "configurations": {
+            "es5": {
+              "browserTarget": "sipdemo:build:es5"
+            },
             "production": {
               "browserTarget": "sipdemo:build:production"
             }
